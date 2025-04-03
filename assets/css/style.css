@@ -1,0 +1,29 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .navbar {
+            background-color: #ADD8E6;
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar a {
+            color: #301934;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        .navbar a:hover {
+            background-color: #90EE90;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
